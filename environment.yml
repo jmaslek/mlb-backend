@@ -1,0 +1,17 @@
+name: mlb-model
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pymc
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - arviz
+  - python-graphviz
+  - pip
+  - pip:
+      - pybaseball

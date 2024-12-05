@@ -1,0 +1,47 @@
+{
+  "player_predict": {
+    "name": "Predictions",
+    "description": "Baseball player performance predictions based on historical data",
+    "category": "baseball",
+    "searchCategory": "sports",
+    "type": "chart",
+    "defaultViz": "chart",
+    "endpoint": "project-test",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "params": [
+      {
+        "paramName": "name",
+        "label": "Name",
+        "type": "text"
+      },
+        {
+            "paramName": "year",
+            "label": "Year",
+            "type": "number"
+        }
+    ]
+  },
+  "player_stats": {
+    "name": "Player Statistics",
+    "description": "Historical baseball statistics showing year-by-year player performance metrics",
+    "category": "baseball",
+    "searchCategory": "sports",
+    "type": "table",
+    "defaultViz": "table",
+    "endpoint": "player-data",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "params": [
+      {
+        "paramName": "name",
+        "label": "Player Name",
+        "type": "text"
+      }
+    ]
+  }
+}

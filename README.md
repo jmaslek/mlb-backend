@@ -1,5 +1,8 @@
 ## Custom MLB Projection and Data Backend
 
+<img width="1483" alt="Screenshot 2024-12-05 at 8 42 15 AM" src="https://github.com/user-attachments/assets/1db3218e-2683-4bd5-aaa6-e2b2ad24553d">
+
+
 This backend serves as an example backend built in flask that details how to use custom quantitative models in OpenBB.
 
 To replicate this, you start with the cloned repo.  Due to some dependency issues with PyMC that haunt me, I recommend using conda and I have provided a config.

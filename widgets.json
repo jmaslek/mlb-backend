@@ -17,11 +17,11 @@
         "label": "Name",
         "type": "text"
       },
-        {
-            "paramName": "year",
-            "label": "Year",
-            "type": "number"
-        }
+      {
+        "paramName": "year",
+        "label": "Year",
+        "type": "number"
+      }
     ]
   },
   "player_stats": {
@@ -43,5 +43,18 @@
         "type": "text"
       }
     ]
+  },
+  "all_stats": {
+    "name": "All Player Statistics",
+    "description": "All historical baseball statistics for all players",
+    "category": "baseball",
+    "searchCategory": "sports",
+    "type": "table",
+    "defaultViz": "table",
+    "endpoint": "all-data",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    }
   }
 }

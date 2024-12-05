@@ -64,6 +64,9 @@ def hist_player_data():
     )
     return player.to_json(orient="records")
 
+@app.route("/all-data")
+def all_player_data():
+    return player_data.to_json(orient="records")
 
 if __name__ == "__main__":
     app.run(debug=True, port=1234)

@@ -17,3 +17,4 @@ dependencies:
   - pip
   - pip:
       - pybaseball
+      - flask_cors

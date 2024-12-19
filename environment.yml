@@ -12,6 +12,8 @@ dependencies:
   - scikit-learn
   - arviz
   - python-graphviz
+  - flask
+  - click
   - pip
   - pip:
       - pybaseball
